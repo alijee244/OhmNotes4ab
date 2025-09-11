@@ -18,6 +18,7 @@ export default defineConfig({
 						{ label: 'Instrumentation', slug: '5th-sem/instrumentation' },
 						{ label: 'High Voltage', slug: '5th-sem/high-voltage' },
 						{ label: 'Communication Engg', slug: '5th-sem/communication-engg' },
+						{ label: 'Numerical Techniques', slug: '5th-sem/numerical-techniques' },
 					],
 				},
 				{
