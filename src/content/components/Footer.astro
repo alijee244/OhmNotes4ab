@@ -1,0 +1,13 @@
+---
+// Props
+const { message, links = [] } = Astro.props;
+---
+
+<footer style="text-align:center; margin-top:3rem; padding:1rem; border-top:1px solid #ccc;">
+  <p>{message}</p>
+  <div>
+    {links.map((link: { href: string | URL | null | undefined; text: unknown; }) => (
+      <a href={link.href} target="_blank" style="margin:0 1rem;">{link.text}</a>
+    ))}
+  </div>
+</footer>

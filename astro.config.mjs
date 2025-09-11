@@ -6,19 +6,23 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Ohm Notes',
+			social: [{ icon: 'github', label: 'GitHub', href: '' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: '5th Semester',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'NanoPhysics', slug: '5th-sem/nanophysics' },
+						{ label: 'Power Electronics II', slug: '5th-sem/power-electronics' },
+						{ label: 'Power System Analysis', slug: '5th-sem/power-system-analysis' },
+						{ label: 'Instrumentation', slug: '5th-sem/instrumentation' },
+						{ label: 'High Voltage', slug: '5th-sem/high-voltage' },
+						{ label: 'Communication Engg', slug: '5th-sem/communication-engg' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: '5th Semester Notes',
+					autogenerate: { directory: '5th-sem' },
 				},
 			],
 		}),

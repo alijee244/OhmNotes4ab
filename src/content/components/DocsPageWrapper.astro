@@ -1,0 +1,14 @@
+---
+import Footer from './Footer.astro';
+const { children } = Astro.props;
+---
+<div class="docs-content">
+  {children}
+  <Footer
+    message="Made with ❤️ by Ali Imam"
+    links={[
+      { text: 'GitHub', href: 'https://github.com/alijee244/OhmNotes' },
+      { text: 'Instagram', href: 'https://www.instagram.com/aliimamjafri.me/' }
+    ]}
+  />
+</div>
