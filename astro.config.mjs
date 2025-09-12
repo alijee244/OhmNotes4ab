@@ -19,6 +19,7 @@ export default defineConfig({
 						{ label: 'High Voltage', slug: '5th-sem/high-voltage' },
 						{ label: 'Communication Engg', slug: '5th-sem/communication-engg' },
 						{ label: 'Numerical Techniques', slug: '5th-sem/numerical-techniques' },
+						{ label: 'PYQ 5th-sem', slug: '5th-sem/pyq' },
 					],
 				},
 				{
