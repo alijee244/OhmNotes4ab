@@ -26,6 +26,10 @@ export default defineConfig({
 					label: '5th Semester Notes',
 					autogenerate: { directory: '5th-sem' },
 				},
+				{
+					label: '6th Semester Notes',
+					autogenerate: { directory: '6th-sem' },
+				},
 			],
 		}),
 	],
