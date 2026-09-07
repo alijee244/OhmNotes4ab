@@ -1,6 +1,6 @@
 ---
 title: All Subject Notes
-description: z7th Sem EE Notes
+description: 7th Sem EE Notes
 
 ---
 <DocsPageWrapper>
